@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="demo" style="font-size:1.5em"></p>
+    
+    <form action="" >
+        <input type="button" value="Klikni me ako si sretan" onclick="meho1()">
+        <input type="button" value="Klikni me ako si nesretan" onclick="meho2()">
+    </form>
+
+    <script type="text/javascript">
+        function meho1()
+{
+    var x;
+    x = "mrsko mi pisat sve! :)";
+    document.getElementById("demo").innerHTML = x;
+    document.getElementById("demo2").innerHTML = x;
+}
+
+function meho2()
+{
+    var x;
+    x = "mrsko mi pisat sve! :) opet! ";
+    document.getElementById("demo").innerHTML = x;
+    document.getElementById("demo2").innerHTML = x;
+}
+    </script>
+    
+<p id="demo2" style="font-size:1.5em"> </p>
+
+</body>
+</html>
